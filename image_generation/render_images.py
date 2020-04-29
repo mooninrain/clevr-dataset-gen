@@ -180,7 +180,7 @@ def main(args):
 
     # Let's render one part first
     # num_objects = random.randint(args.min_objects, args.max_objects)
-    num_objects=1
+    num_objects = 1
 
     render_scene(args,
       num_objects=num_objects,
