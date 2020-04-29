@@ -355,6 +355,7 @@ def add_random_objects(scene_struct, num_objects, args, camera):
   objects = []
   blender_objects = []
   for i in range(num_objects):
+    import pdb; pdb.set_trace()
     # Choose a random size
     size_name, r = random.choice(size_mapping)
 
