@@ -177,7 +177,11 @@ def main(args):
     blend_path = None
     if args.save_blendfiles == 1:
       blend_path = blend_template % (i + args.start_idx)
-    num_objects = random.randint(args.min_objects, args.max_objects)
+
+    # Let's render one part first
+    # num_objects = random.randint(args.min_objects, args.max_objects)
+    num_objects=1
+
     render_scene(args,
       num_objects=num_objects,
       output_index=(i + args.start_idx),
