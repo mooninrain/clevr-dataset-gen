@@ -91,6 +91,7 @@ def add_object(object_dir, name, scale, loc, theta=0):
     if obj.name.startswith(name):
       count += 1
 
+  import pdb; pdb.set_trace()
   filename = os.path.join(object_dir, '%s.blend' % name, 'Object', name)
   bpy.ops.wm.append(filename=filename)
 
