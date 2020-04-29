@@ -97,7 +97,7 @@ def add_object(object_dir, name, scale, loc, theta=0):
   # import partnet parts
   imported_object = bpy.ops.import_scene.obj(filepath='/data/vision/billf/scratch/ruidongwu/data/data_v0/97/objs/new-0.obj')
   name = 'new-0'
-  # import pdb; pdb.set_trace()
+  import pdb; pdb.set_trace()
 
   # Give it a new name to avoid conflicts
   new_name = '%s_%d' % (name, count)
